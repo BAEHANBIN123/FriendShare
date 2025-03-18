@@ -1,0 +1,92 @@
+/* 헤더 기본 스타일 */
+header {
+    background-color: lightskyblue;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  
+  /* 로그인 컨테이너: 폼과 회원정보 찾기 버튼을 가로로 배치 */
+  .login-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    border: none;
+  }
+  
+  /* 로그인 폼: 입력창과 로그인 버튼을 한 줄에 */
+  .login-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+  
+  /* 로그인 입력 필드 스타일 */
+  .login-form input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  /* 공통 버튼 스타일 (header 내 모든 버튼) */
+  header button {
+    background-color: white;
+    color: #7C0019;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  /* 로그인 버튼 */
+  .login-button {
+    min-width: 80px;
+  }
+  
+  /* 회원정보 찾기 버튼 */
+  .find-account-btn {
+    min-width: 120px;
+  }
+  
+  /* 버튼 호버 효과 */
+  header button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* 로그인 후 화면: user-info 영역 */
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  
+  .user-info button {
+    min-width: 80px;
+  }
+  
+  .user-message {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+  }
+  
